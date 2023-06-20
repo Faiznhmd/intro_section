@@ -1,0 +1,8 @@
+$Almost-White: hsl(0, 0%, 98%);
+$Medium-Gray: hsl(0, 0%, 41%);
+$Almost-Black: hsl(0, 0%, 8%);
+// $Soft-red: hsl(5, 85%, 63%);
+.container {
+  width: min(100% - 32px, 1440px);
+  margin-inline: auto;
+}

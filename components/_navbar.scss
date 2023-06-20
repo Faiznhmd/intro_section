@@ -1,0 +1,39 @@
+@import "./variables";
+.navbar__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .navbar {
+    display: flex;
+    // padding: 30px 30px;
+    gap: 40px;
+
+    .logo {
+      font-size: 50px;
+      font-weight: 700;
+      padding-top: 15px;
+    }
+    .ul {
+      display: flex;
+      gap: 40px;
+      list-style: none;
+      padding: 30px 30px;
+
+      .li {
+        .a {
+          text-decoration: none;
+          color: hsl(0, 0%, 41%);
+        }
+      }
+    }
+  }
+  .login {
+    display: flex;
+    padding: 30px 30px;
+    gap: 40px;
+    a {
+      text-decoration: none;
+      color: hsl(0, 0%, 41%);
+    }
+  }
+}

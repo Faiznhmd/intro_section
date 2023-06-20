@@ -1,0 +1,50 @@
+.content__wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: flex-end;
+  gap: 150px;
+  padding: 50px 50px;
+  width: 100%;
+
+  .content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    .h1 {
+      font-size: 60px;
+    }
+    .para {
+      font-weight: 200;
+      padding-bottom: 40px;
+      color: $Medium-Gray;
+      padding-top: 40px;
+      line-height: 30px;
+    }
+
+    .button {
+      background-color: black;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 20px;
+    }
+
+    .sponser {
+      display: flex;
+      gap: 40px;
+      padding-top: 100px;
+      align-items: center;
+    }
+  }
+  .img__wrapper {
+    width: 40%;
+
+    .img {
+      width: 450px;
+    }
+  }
+}

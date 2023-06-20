@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Inter:wght@400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
+.container {
+  width: min(100% - 32px, 1440px);
+  margin-inline: auto;
+}
+
+.navbar__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar__wrapper .navbar {
+  display: flex;
+  gap: 40px;
+}
+.navbar__wrapper .navbar .logo {
+  font-size: 50px;
+  font-weight: 700;
+  padding-top: 15px;
+}
+.navbar__wrapper .navbar .ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  padding: 30px 30px;
+}
+.navbar__wrapper .navbar .ul .li .a {
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+}
+.navbar__wrapper .login {
+  display: flex;
+  padding: 30px 30px;
+  gap: 40px;
+}
+.navbar__wrapper .login a {
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+}
+
+.content__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 150px;
+  padding: 50px 50px;
+  width: 100%;
+}
+.content__wrapper .content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.content__wrapper .content .h1 {
+  font-size: 60px;
+}
+.content__wrapper .content .para {
+  font-weight: 200;
+  padding-bottom: 40px;
+  color: hsl(0, 0%, 41%);
+  padding-top: 40px;
+  line-height: 30px;
+}
+.content__wrapper .content .button {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.content__wrapper .content .sponser {
+  display: flex;
+  gap: 40px;
+  padding-top: 100px;
+  align-items: center;
+}
+.content__wrapper .img__wrapper {
+  width: 40%;
+}
+.content__wrapper .img__wrapper .img {
+  width: 450px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Epilogue", sans-serif;
+}/*# sourceMappingURL=style.css.map */
